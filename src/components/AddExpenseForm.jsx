@@ -43,6 +43,7 @@ const AddExpenseForm = ({ budgets }) => {
               type="text"
               name="newExpense"
               id="newExpense"
+              placeholder="Books"
               ref={focusRef}
               required
             />
